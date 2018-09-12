@@ -1,0 +1,30 @@
+#xyz{
+  margin:20px;
+}
+#abc{
+
+border:2px solid black;
+margin :20px;
+padding:6px;
+text-decoration: none;
+
+}
+#main{
+border:4px solid blue;
+padding:10px;
+margin:20px;
+margin-bottom:5px;
+height:400px;
+}
+#login{
+   border:2px solid blue;
+  padding:10px;
+margin:20px;
+width:200px
+}
+#myfooter{
+border:3px solid black;
+padding:10px;
+margin:20px;
+margin-top:5px;
+}

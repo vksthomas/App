@@ -1,0 +1,82 @@
+
+body{
+    border:4px solid cyan;
+border-radius: 1em;
+  width:960px;
+  margin:15px auto;
+  font-family: Arial,sans-serif;
+  padding:1em;
+}
+
+p{
+  margin:0 0 20px 0;
+}
+
+p, li{
+  line-height:20px;
+}
+
+nav li{
+  border:2px dashed #787878 ;
+  padding:2px;
+  margin:2px;
+}
+
+header#page_header{
+  width:100%;
+  border-radius: 1em;
+}
+
+header#page_header nav ul, footer#page_footer nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 2px;
+  border-radius: 1em;
+}
+
+header#page_header nav ul li, footer#page_footer nav ul li{
+  padding:2px;
+  margin: 0 20px 0 0;
+  display:inline;
+  border-radius: 1em;
+}
+
+section#posts{
+  float: left;
+  width: 67%;
+  border-radius: 1em;
+  border:1px solid grey;
+  margin:0.9em;
+  padding:0.7em;
+}
+aside{
+  border:2px solid blue;
+  border-radius: 0.4em;
+  padding: 0.4em;
+}
+
+section#posts aside{
+  float: right;
+  width: 35%;
+  margin-left: 5%;
+  font-size: 20px;
+  line-height: 40px;
+}
+/*END:posts_style */
+
+/*START:sidebar_style */
+section#sidebar{
+  float: left;
+  width: 25%;
+}
+/*END:sidebar_style */
+
+/*START:footer_style */
+footer#page_footer{
+  border:3px dotted blue;
+  clear: both;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+/*END:footer_style */
